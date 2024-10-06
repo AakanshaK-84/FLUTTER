@@ -1,9 +1,7 @@
 import "package:flutter/material.dart";
-
 void main() {
   runApp(const MyApp());
 }
-
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -23,10 +21,9 @@ class MyApp extends StatelessWidget {
               Container(
                 height: 450, 
                 width: 7,   
-                color: Color.fromARGB(182, 40, 37, 37), 
+                color: const Color.fromARGB(182, 40, 37, 37), 
               ),        
               Column(
-                //mainAxisAlignment: MainAxisAlignment.center,
                 children:[
                   const SizedBox(
                     height: 95,
